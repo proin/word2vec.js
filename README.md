@@ -38,6 +38,20 @@ node.js version of `https://code.google.com/p/word2vec`
         - vector1-vector2: analyzer.operator.sub(vector1, vector2)
         - distance: analyzer.operator.dist(vector1, vector2)
     - analyzer.findCousin(vector, size)
+        - output like this
+            ```javascript
+            [ { key: 'korea', dist: '0.771689' },
+              { key: 'beijing', dist: '0.576056' },
+              { key: 'seoul', dist: '0.564867' },
+              { key: 'korean', dist: '0.562586' },
+              { key: 'chungcheong', dist: '0.529448' },
+              { key: 'dae', dist: '0.502329' },
+              { key: 'vietnamese', dist: '0.497823' },
+              { key: 'berlin', dist: '0.487074' },
+              { key: 'chung', dist: '0.484467' },
+              { key: 'gyeonggi', dist: '0.482213' } ]
+              
+            ```
 - example
     ```javascript
     var word2vec = require('word2vec.js');
