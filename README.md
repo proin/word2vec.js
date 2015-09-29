@@ -1,2 +1,8 @@
 # word2vec.js
-word2vec javascript version
+node.js version of `https://code.google.com/p/word2vec`
+
+## Usage
+
+- `npm install word2vec.js`
+
+

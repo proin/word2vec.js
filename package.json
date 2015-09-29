@@ -1,0 +1,29 @@
+{
+    "name": "word2vec.js",
+    "description": "node.js version of https://code.google.com/p/word2vec",
+    "author": {
+        "name": "Yeonghun, Chae",
+        "email": "proin@proinlab.com"
+    },
+    "version": "0.1.1",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/proin/word2vec.js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/proin/word2vec.js/issues"
+    },
+    "main": "./index.js",
+    "files": [
+        "LICENSE",
+        "README.md",
+        "index.js",
+        "libs/"
+    ],
+    "licenses": [
+        {
+            "type": "Apache License Version 2.0",
+            "url": "http://www.apache.org/licenses"
+        }
+    ]
+}
