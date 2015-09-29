@@ -13,6 +13,7 @@ node.js version of `https://code.google.com/p/word2vec`
 - example
     ```javascript
     var word2vec = require('word2vec.js');
+    
     word2vec.trainer({
         train: './data/text8',
         output: 'vector.txt',
