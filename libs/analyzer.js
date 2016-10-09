@@ -45,6 +45,7 @@ var m = function (source) {
     var findCousin = function (wordVec, size) {
         var sorted = [];
         for (var i in data) {
+            if (typeof data[i] == 'function') continue;
             sorted.push({key: data[i].split(' ')[0], dist: dist(wordVec, JSON.parse(data[i].split(' ')[1]))});
             sorted.sort(function (a, b) {
                 return b.dist - a.dist;
